@@ -16,7 +16,7 @@ public class ImplicitTest extends
 
 	public void setUp() throws Exception {
 		solo = new Solo(getInstrumentation(),getActivity());
-		
+
 	}
 
 	@Override
@@ -60,8 +60,8 @@ public class ImplicitTest extends
 				"Section One:" +
 				"MyBrowser was not found",
 				solo.searchText("MyBrowser", true));
-		
-		
+
+
 
 	}
 }
