@@ -31,8 +31,10 @@ public class ActivityLoaderActivity extends Activity {
 	private void startBookMarksActivity() {
 		
 		Log.i(TAG, "Entered startBookMarksActivity()");
-	
+
 		// TODO - Start the BookmarksActivity
+		Intent bookmarkIntent = new Intent(this, BookmarksActivity.class);
+		startActivity(bookmarkIntent);
 
 	}
 }
