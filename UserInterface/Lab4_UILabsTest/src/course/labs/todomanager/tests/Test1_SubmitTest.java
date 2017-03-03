@@ -2,6 +2,7 @@ package course.labs.todomanager.tests;
 
 import android.test.ActivityInstrumentationTestCase2;
 
+
 import com.robotium.solo.Solo;
 
 import course.labs.todomanager.ToDoManagerActivity;

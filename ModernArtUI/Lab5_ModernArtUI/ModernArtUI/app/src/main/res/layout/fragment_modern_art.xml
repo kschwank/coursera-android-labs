@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_modern_art"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:showIn="@layout/activity_modern_art"
+        tools:context="org.morefunc.modernartui.ModernArtActivityFragment">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_height="match_parent"
+                  android:layout_width="0dp"
+                  android:layout_weight="40">
+        <View android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:id="@+id/view1"
+              android:background="#FFFF90"
+              android:layout_margin="5dp"
+              android:layout_weight="50"
+              android:backgroundTintMode="add"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:id="@+id/view2"
+              android:background="#FFCC90"
+              android:layout_margin="5dp"
+              android:layout_weight="50"
+              android:backgroundTintMode="add"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_height="match_parent"
+                  android:layout_width="0dp"
+                  android:layout_weight="60">
+        <View android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/view3"
+              android:background="#FF9000"
+              android:layout_margin="5dp"
+              android:layout_weight="50"
+              android:backgroundTintMode="add"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/darker_gray"
+              android:layout_margin="5dp"
+              android:layout_weight="55"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/view4"
+              android:background="#BBBB00"
+              android:layout_margin="5dp"
+              android:layout_weight="45"
+              android:backgroundTintMode="add"/>
+    </LinearLayout>
+</LinearLayout>
